@@ -186,6 +186,8 @@ popularidad banda clasificaciones = (*100) . length $ filter (evaluarClasificaci
 evaluarClasificacion :: Banda->Clasificacion->Bool
 evaluarClasificacion banda clasificacion = clasificacion banda 
 
+rgregg
+
 {- 7)
 Definir la función buenFest, que dado un festival y un conjunto de clasificaciones posibles dice si es un buen fest. 
 Esto sucede cuando cronológicamente cada banda es más popular que la anterior,
